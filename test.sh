@@ -5,6 +5,11 @@ pushd 122 >/dev/null
     ./example
 popd >/dev/null
 
+pushd 122_gowork >/dev/null
+    go build .
+    ./example
+popd >/dev/null
+
 pushd 122_godebug_default >/dev/null
     go build .
     ./example
